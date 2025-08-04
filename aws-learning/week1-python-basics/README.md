@@ -14,11 +14,7 @@ This script demonstrates the fundamentals of Python — the core language you'll
 
 ## 📌 Example Output
 
-My name is Charles. I like AWS S3. I have 1 certifications. Learning AWS: True
-<class 'str'>
-<class 'str'>
-<class 'int'>
-<class 'bool'>
+<pre><code>## 📌 Example Output ``` My name is Charles. I like AWS S3. I have 1 certifications. Learning AWS: True &lt;class 'str'&gt; &lt;class 'str'&gt; &lt;class 'int'&gt; &lt;class 'bool'&gt; ``` </code></pre>
 
 
 ## 🚀 Next Step
