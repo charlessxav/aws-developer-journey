@@ -22,9 +22,6 @@ My name is Charles. I like AWS S3. I have 1 certifications. Learning AWS: True
 <class 'bool'>
 ```
 
-## 🚀 Next Step
-👉 Day 2: Lists & Dictionaries
-
 ---
 
 # 🧩 Day 2 – Python Collections: Lists & Dictionaries
@@ -68,10 +65,6 @@ days_per_week -> 6
 goal_role -> AWS Developer
 ```
 
-## 🧠 Summary
-These structures are foundational for writing real AWS automation scripts and working with APIs like `boto3`.
-
-
 ---
 
 # 🔁 Day 3 – Python Control Flow
@@ -98,9 +91,59 @@ Learning path (developer/architect): developer
 ✅ Ready for AWS Developer role!
 ```
 
-## 🧠 Summary
-Conditional logic is the foundation of automation: choosing what to deploy, when to act, or how to route configs in tools like Lambda and scripts.
+---
+
+# 🧮 Day 4 – Python Functions & Reusability
+
+Learned how to write reusable, modular code using functions — the building block of all automation and AWS Lambda scripts.
+
+## ✅ Topics Covered
+- Defining functions with `def`
+- Passing arguments (parameters)
+- Using `return` for reusable logic
+- Function composition
+- Input + logic + output formatting
+
+## 📁 Files
+- `day4_functions.py` — multiple functions: greet, goals, cert status
+- `day4_profile_builder.py` — combined challenge with return + logic
+
+## 📌 Example Output
+
+```
+Charles is learning AWS to become a Developer.
+Status: ✅ Certified
+```
 
 ---
 
-> 💡 Part of a full 14-week AWS Developer Learning Path.
+# 🔁 Day 5 – Python Loops: Lists, Counters, Dictionaries
+
+Learned how to repeat logic over sequences — critical for working with AWS resources, files, and repetitive actions.
+
+## ✅ Topics Covered
+- `for` loops over lists
+- `while` loops with conditions
+- Looping through dictionaries using `.items()`
+- Counting with `range()` and formatted output
+
+## 📁 File
+- `day5_loops.py` — printed weekdays, counted learning days, iterated AWS service dictionary
+
+## 📌 Example Output
+
+```
+Study Plan for: Mon
+Study Plan for: Tue
+...
+Day 1 of learning
+Day 2 of learning
+...
+S3 is used for: Storage
+Lambda is used for: Compute
+Cloudwatch is used for: Monitoring
+```
+
+---
+
+> 💡 You’ve completed Week 1 of the 14-week AWS Developer journey!
