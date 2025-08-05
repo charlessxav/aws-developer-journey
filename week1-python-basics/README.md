@@ -22,6 +22,16 @@ My name is Charles. I like AWS S3. I have 1 certifications. Learning AWS: True
 <class 'bool'>
 ```
 
+## 🚀 Next Step
+👉 Day 2: Lists & Dictionaries
+
+---
+
+> 💡 This is part of a full 14-week AWS Developer Learning Path.
+
+
+---
+
 # 🧩 Day 2 – Python Collections: Lists & Dictionaries
 
 Learned how to use Python's most important data structures for AWS scripting:
@@ -68,8 +78,4 @@ These structures are foundational for writing real AWS automation scripts and wo
 
 ---
 
-
-> 💡 This is part of a full 14-week AWS Developer Learning Path.
-
-
----
+> 💡 Part of a full 14-week AWS Developer Learning Path.
