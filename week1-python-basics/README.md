@@ -27,11 +27,6 @@ My name is Charles. I like AWS S3. I have 1 certifications. Learning AWS: True
 
 ---
 
-> 💡 This is part of a full 14-week AWS Developer Learning Path.
-
-
----
-
 # 🧩 Day 2 – Python Collections: Lists & Dictionaries
 
 Learned how to use Python's most important data structures for AWS scripting:
@@ -75,6 +70,36 @@ goal_role -> AWS Developer
 
 ## 🧠 Summary
 These structures are foundational for writing real AWS automation scripts and working with APIs like `boto3`.
+
+
+---
+
+# 🔁 Day 3 – Python Control Flow
+
+Learned how to use `if`, `else`, and `elif` to control program behavior. Practiced building real-world logic used in AWS scripts and automations.
+
+## ✅ Topics Covered
+- `if`, `elif`, `else` decision-making
+- Logical operators: `and`, `or`, `not`
+- Nested conditions
+- User input via `input()`
+- Real-world logic: role-readiness based on certs, experience, and path
+
+## 📁 Files
+- `day3_conditions.py` — basic role evaluation with logic
+- `day3_input_conditions.py` — interactive version with user input and nested checks
+
+## 📌 Example Output
+
+```
+Are you AWS certified? (yes/no): yes
+Years of experience: 3
+Learning path (developer/architect): developer
+✅ Ready for AWS Developer role!
+```
+
+## 🧠 Summary
+Conditional logic is the foundation of automation: choosing what to deploy, when to act, or how to route configs in tools like Lambda and scripts.
 
 ---
 
