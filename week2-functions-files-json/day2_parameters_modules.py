@@ -1,6 +1,16 @@
 from greetings_module import greet_user
+from math_utils import add_numbers
 
-message = greet_user(certs=5, name="Charles")
-print(message)
+# Using positional arguments
+greet_user("Charles", "AWS Developer")
 
-# Output: Hello Charles, you have 2 AWS certifications!
+# Using keyword arguments
+greet_user(role="AWS Architect", name="Charles")
+
+# Using default argument
+greet_user("Charles")
+
+# Mathematical operation
+result = add_numbers(5, 7)
+print(f"5 + 7 = {result}")
+
