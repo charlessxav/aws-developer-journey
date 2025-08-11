@@ -1,132 +1,92 @@
 # 🗂️ Week 2 – Functions, Files, JSON & Error Handling
 
-This folder contains hands-on work, code challenges, and quizzes from **Week 2** of my AWS Developer Learning Journey.
+This folder contains all hands-on work, code challenges, and quizzes from **Week 2** of my AWS Developer Learning Journey.
 
 ---
 
 ## 📅 Topics Covered
 
 - Python function definition, parameters, and return values
-- Default arguments & modular coding
+- Positional, keyword, and default arguments
+- Organizing code with Python modules
 - File reading/writing with `.txt` files
 - JSON parsing and manipulation in Python
 - Exception handling using `try`/`except`
-- Small CLI-style automation projects
-
----
-
-## 🗂️ Folder Structure (Week 2)
-
-```
-week2-functions-files-json/
-├── week2_functions_basics.py              # Day 1
-├── day2_parameters_modules.py             # Day 2 (main script)
-├── greetings_module.py                    # Day 2 (helper module)
-├── math_utils.py                          # Day 2 (optional helper)
-├── (upcoming) day3_file_io.py             # Day 3
-├── (upcoming) day4_json_parsing.py        # Day 4
-├── (upcoming) day5_error_handling.py      # Day 5
-└── README.md
-```
-
-> Files with **(upcoming)** will be added as the week progresses.
+- CLI and small automation projects
 
 ---
 
 ## 📝 Day-by-Day Breakdown
 
-| Day   | Topic/Challenge                               | File Name(s)                           | Status |
-|-------|-----------------------------------------------|----------------------------------------|--------|
-| Day 1 | Function basics: define, call, return         | `week2_functions_basics.py`            | ✅ Done |
-| Day 2 | Parameters, default args, modules             | `day2_parameters_modules.py`, `greetings_module.py`, `math_utils.py` | 🔄 In progress |
-| Day 3 | File I/O: reading & writing                   | `(upcoming) day3_file_io.py`           | ⏳     |
-| Day 4 | JSON parsing: load/save, hands-on             | `(upcoming) day4_json_parsing.py`      | ⏳     |
-| Day 5 | Error handling: try/except, challenge         | `(upcoming) day5_error_handling.py`    | ⏳     |
-| Day 6 | Quiz + Build: Config loader tool              | `(upcoming)`                           | ⏳     |
+| Day   | Topic/Challenge                                 | File Name(s)                      |
+|-------|-------------------------------------------------|------------------------------------|
+| Day 1 | Function basics: define, call, return           | `week2_functions_basics.py`       |
+| Day 2 | Parameters, default args, modules               | `day2_parameters_modules.py`, `greetings_module.py`, `math_utils.py` |
+| Day 3 | File I/O: reading & writing                     | *(upcoming)*                       |
+| Day 4 | JSON parsing: load/save, hands-on                | *(upcoming)*                       |
+| Day 5 | Error handling: try/except, challenge            | *(upcoming)*                       |
+| Day 6 | Quiz + Build: Config loader tool                 | *(upcoming)*                       |
 
 ---
 
-## 🧪 Mini Project (Week 1–2 So Far): AWS Developer CLI Tracker
-
-A modular CLI-style tool that tracks user profile and AWS learning progress.
-
-**Planned files (live under this week’s folder):**
-- `aws_dev_tracker/user_profile.py` – build a profile dict (`name`, `goal`, `certifications`)
-- `aws_dev_tracker/progress_logic.py` – list services, format summaries, add certification
-- `main.py` – entry point that prints the progress summary
-
-**Planned output:**
-
-```
-Charles is learning AWS to become a AWS Developer.
-Certifications: 2
-
-[Updated Profile]
-Charles is learning AWS to become a AWS Developer.
-Certifications: 3
-
-Learning AWS services:
-- S3
-- Lambda
-- CloudWatch
-- DynamoDB
-- CloudFormation
-```
-
-> I’m coding this myself to reinforce fundamentals; the structure/algorithm is documented above.
-
----
-
-## ▶️ How to Run
-
-From repo root (or from this folder):
-
-```bash
-# Day 1 example
-python week2-functions-files-json/week2_functions_basics.py
-
-# Day 2 example
-python week2-functions-files-json/day2_parameters_modules.py
-```
-
----
-
-## 🚀 Sample Snippets (from this week)
+## 🚀 Sample Code (from this week)
 
 ```python
-def greet(name):
-    print(f"Welcome, {name}! Ready for AWS?")
+# greetings_module.py
+def greet_user(name, role="Learner"):
+    print(f"Hello {name}, you are learning to be an {role}!")
 
-def add_certifications(current, new=1):
-    return current + new
+# math_utils.py
+def add_numbers(a, b):
+    return a + b
 ```
 
 ---
 
-## ✅ Progress Checklist (Week 2)
+## 🎯 What I Learned
 
-- [x] Day 1 – Functions: define/call/return
-- [ ] Day 2 – Parameters, defaults, modules
-- [ ] Day 3 – File I/O
-- [ ] Day 4 – JSON parsing
-- [ ] Day 5 – Error handling
-- [ ] Day 6 – Quiz + Config loader mini build
+- Writing and organizing functions for reusability
+- Using positional, keyword, and default arguments effectively
+- Splitting code into modules for better maintainability
+- Preparing for file handling, JSON parsing, and error management
 
 ---
 
 ## 💡 How This Connects to AWS
 
-- Functions & modules → **Lambda handlers / helper libs**
-- File I/O & JSON → **config, payloads, IAM policies**
-- Error handling → **reliable automation scripts**
-- CLI patterns → **boto3-based tooling**
+These skills are directly relevant to:
+- Writing AWS Lambda functions with parameters
+- Structuring boto3 automation scripts
+- Creating modular AWS CLI tools
+
+---
+
+## 📂 Mini-Projects This Week
+
+### AWS Developer CLI Tracker
+**Goal:** Build a command-line tool to manage AWS learning progress.
+
+**Features:**
+- Store & display AWS learning profile (name, role, certifications, services)
+- Add new AWS services to your learning list
+- Generate summaries using f-strings
+- Use parameters and modules for organized, reusable code
+
+**Concepts Used:**
+- Variables, strings, booleans, lists
+- f-strings for formatting
+- Functions with positional, keyword, and default arguments
+- Python modules for clean structure
+
+**Why it’s Valuable:**  
+This project is portfolio-ready, demonstrating Python fundamentals and code organization for AWS-related automation tasks.
 
 ---
 
 ## 🏷️ Tags
 
-`#python` `#functions` `#modules` `#aws` `#automation` `#learning-journey`
+`#python` `#functions` `#modules` `#aws` `#automation` `#learning-journey` `#portfolio-project`
 
 ---
 
-> Week 2 builds the foundation for AWS SDK (boto3), serverless apps, and IaC.
+> This week is part of a structured 14-week AWS Developer portfolio journey.
