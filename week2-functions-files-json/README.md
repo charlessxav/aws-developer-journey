@@ -25,7 +25,7 @@ This folder contains all hands-on work, code challenges, and quizzes from **Week
 | Day 3 | File I/O: reading & writing                     | *(upcoming)*                       |
 | Day 4 | JSON parsing: load/save, hands-on                | *(upcoming)*                       |
 | Day 5 | Error handling: try/except, challenge            | *(upcoming)*                       |
-| Day 6 | Quiz + Build: Config loader tool                 | *(upcoming)*                       |
+| Day 6 | **Recap + Quiz + Mini-Project (All Week 2 topics)** | *(upcoming)*                       |
 
 ---
 
@@ -48,7 +48,8 @@ def add_numbers(a, b):
 - Writing and organizing functions for reusability
 - Using positional, keyword, and default arguments effectively
 - Splitting code into modules for better maintainability
-- Preparing for file handling, JSON parsing, and error management
+- Handling file I/O for automation tasks
+- Preparing for JSON parsing and error management
 
 ---
 
@@ -58,6 +59,7 @@ These skills are directly relevant to:
 - Writing AWS Lambda functions with parameters
 - Structuring boto3 automation scripts
 - Creating modular AWS CLI tools
+- Handling configuration and log files in AWS workflows
 
 ---
 
@@ -71,21 +73,34 @@ These skills are directly relevant to:
 - Add new AWS services to your learning list
 - Generate summaries using f-strings
 - Use parameters and modules for organized, reusable code
+- Save and load progress from text files (file I/O)
 
 **Concepts Used:**
 - Variables, strings, booleans, lists
 - f-strings for formatting
 - Functions with positional, keyword, and default arguments
 - Python modules for clean structure
+- File read/write operations
 
 **Why it’s Valuable:**  
 This project is portfolio-ready, demonstrating Python fundamentals and code organization for AWS-related automation tasks.
 
 ---
 
+## 📅 Day 6 Special Plan
+
+**Purpose:** Consolidate and strengthen Week 2 learning.  
+**Includes:**
+1. **Recap:** Quick walk-through of all 5 lessons.  
+2. **Quiz:** 10–12 questions covering all concepts from Week 2.  
+3. **Mini-Project:** Build the AWS Developer CLI Tracker with file save/load functionality.  
+4. **GitHub Update:** Commit the completed project and README updates.
+
+---
+
 ## 🏷️ Tags
 
-`#python` `#functions` `#modules` `#aws` `#automation` `#learning-journey` `#portfolio-project`
+`#python` `#functions` `#modules` `#file-io` `#aws` `#automation` `#learning-journey` `#portfolio-project`
 
 ---
 
