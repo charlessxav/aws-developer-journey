@@ -20,7 +20,7 @@ This folder contains all hands-on work, code challenges, and quizzes from **Week
 
 | Day   | Topic/Challenge                                 | File Name(s)                      |
 |-------|-------------------------------------------------|------------------------------------|
-| Day 1 | Function basics: define, call, return           | `week2_functions_basics.py`       |
+| Day 1 | Function basics: define, call, return           | `day1_functions_basics.py`       |
 | Day 2 | Parameters, default args, modules               | `day2_parameters_modules.py`, `greetings_module.py`, `math_utils.py` |
 | Day 3 | File I/O: reading & writing                     | `day3_file_io.py`                       |
 | Day 4 | JSON parsing: load/save, hands-on                | *(upcoming)*                       |
