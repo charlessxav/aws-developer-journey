@@ -20,10 +20,10 @@ This folder contains all hands-on work, code challenges, and quizzes from **Week
 
 | Day   | Topic/Challenge                                 | File Name(s)                      |
 |-------|-------------------------------------------------|------------------------------------|
-| Day 1 | Function basics: define, call, return           | `day1_functions_basics.py`       |
+| Day 1 | Function basics: define, call, return           | `week2_functions_basics.py`       |
 | Day 2 | Parameters, default args, modules               | `day2_parameters_modules.py`, `greetings_module.py`, `math_utils.py` |
-| Day 3 | File I/O: reading & writing                     | `day3_file_io.py`                       |
-| Day 4 | JSON parsing: load/save, hands-on                | *(upcoming)*                       |
+| Day 3 | File I/O: reading & writing                     | `day3_file_io.py`                  |
+| Day 4 | JSON parsing: load/save, hands-on                | `day4_json_parsing.py`             |
 | Day 5 | Error handling: try/except, challenge            | *(upcoming)*                       |
 | Day 6 | **Recap + Quiz + Mini-Project (All Week 2 topics)** | *(upcoming)*                       |
 
@@ -39,6 +39,41 @@ def greet_user(name, role="Learner"):
 # math_utils.py
 def add_numbers(a, b):
     return a + b
+
+# day3_file_io.py
+with open("study_plan.txt", "w") as file:
+    file.write("Day 1 of Learning\n")
+    file.write("Day 2 of Learning\n")
+    file.write("Day 3 of Learning\n")
+
+with open("study_plan.txt", "a") as file:
+    file.write("Day 4 of Learning\n")
+
+with open("study_plan.txt", "r") as file:
+    content = file.read()
+    print("📄 File Content:\n", content)
+
+# day4_json_parsing.py
+import json
+
+aws_profile = {
+    "name": "Charles",
+    "goal": "AWS Developer",
+    "certifications": 2,
+    "learning": True,
+    "services": ["S3", "Lambda", "CloudWatch"]
+}
+
+with open("aws_profile.json", "w") as file:
+    json.dump(aws_profile, file, indent=4)
+
+with open("aws_profile.json", "r") as file:
+    loaded_profile = json.load(file)
+
+loaded_profile["services"].append("DynamoDB")
+
+with open("aws_profile.json", "w") as file:
+    json.dump(loaded_profile, file, indent=4)
 ```
 
 ---
@@ -48,8 +83,8 @@ def add_numbers(a, b):
 - Writing and organizing functions for reusability
 - Using positional, keyword, and default arguments effectively
 - Splitting code into modules for better maintainability
-- Handling file I/O for automation tasks
-- Preparing for JSON parsing and error management
+- Reading/writing `.txt` files for automation
+- Parsing, modifying, and saving JSON data for AWS scripts
 
 ---
 
@@ -59,7 +94,7 @@ These skills are directly relevant to:
 - Writing AWS Lambda functions with parameters
 - Structuring boto3 automation scripts
 - Creating modular AWS CLI tools
-- Handling configuration and log files in AWS workflows
+- Saving AWS CLI output and loading configuration files in JSON
 
 ---
 
@@ -73,17 +108,10 @@ These skills are directly relevant to:
 - Add new AWS services to your learning list
 - Generate summaries using f-strings
 - Use parameters and modules for organized, reusable code
-- Save and load progress from text files (file I/O)
-
-**Concepts Used:**
-- Variables, strings, booleans, lists
-- f-strings for formatting
-- Functions with positional, keyword, and default arguments
-- Python modules for clean structure
-- File read/write operations
+- Save/load progress from text or JSON files
 
 **Why it’s Valuable:**  
-This project is portfolio-ready, demonstrating Python fundamentals and code organization for AWS-related automation tasks.
+This project is portfolio-ready, demonstrating Python fundamentals and AWS-related automation.
 
 ---
 
@@ -91,16 +119,16 @@ This project is portfolio-ready, demonstrating Python fundamentals and code orga
 
 **Purpose:** Consolidate and strengthen Week 2 learning.  
 **Includes:**
-1. **Recap:** Quick walk-through of all 5 lessons.  
-2. **Quiz:** 10–12 questions covering all concepts from Week 2.  
-3. **Mini-Project:** Build the AWS Developer CLI Tracker with file save/load functionality.  
-4. **GitHub Update:** Commit the completed project and README updates.
+1. Recap of all lessons  
+2. Quiz on all Week 2 topics  
+3. Mini-project with file & JSON handling  
+4. Push to GitHub with updated README
 
 ---
 
 ## 🏷️ Tags
 
-`#python` `#functions` `#modules` `#file-io` `#aws` `#automation` `#learning-journey` `#portfolio-project`
+`#python` `#functions` `#modules` `#file-io` `#json` `#aws` `#automation` `#portfolio`
 
 ---
 
