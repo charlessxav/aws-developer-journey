@@ -1,4 +1,3 @@
-
 # 🚀 AWS Developer Journey
 
 Welcome to my AWS Developer portfolio!  
@@ -21,7 +20,7 @@ This repository documents my **14-week hands-on learning path** as I transition 
 | Week | Topic                             | Status        | Folder Link                                |
 |------|-----------------------------------|---------------|---------------------------------------------|
 | 1    | Python Basics                     | ✅ Completed   | [week1-python-basics](./week1-python-basics) |
-| 2    | Functions, Files & JSON           | 🔄 In Progress | [week2-functions-files-json](./week2-functions-files-json) |
+| 2    | Functions, Files & JSON           | ✅ Completed | [week2-functions-files-json](./week2-functions-files-json) |
 | 3    | AWS CLI + boto3                   | ⏳ Upcoming    | *(coming soon)*                             |
 | 4    | Serverless with Lambda + API      | ⏳ Upcoming    | *(coming soon)*                             |
 | 5    | CRUD with DynamoDB + Lambda       | ⏳ Upcoming    | *(coming soon)*                             |
